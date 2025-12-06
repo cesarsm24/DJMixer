@@ -170,11 +170,9 @@ AudioMixerController:
   m_UpdateMode: 0
   m_ExposedParameters:
   - guid: 4a49ce4bee3ad26419af4912796d9eb3
-    name: tssPsQN
-  - guid: bc9dc57df444b42ed8c7021e32ad4a71
-    name: vQTuTmL
+    name: Disco_01_Volume
   - guid: d7e3c35e1f6b6f9419d62e04b3baa749
-    name: LsslTHH
+    name: Disco_01_Pitch
   - guid: bdb0d5ab7c3cc404da1a44c598144f5c
     name: Disco_01_Mid
   - guid: 086b2eaa9fdc240048eedecf0af95bbb
@@ -182,13 +180,17 @@ AudioMixerController:
   - guid: 8df98630f043e4ecaa5ade87fd7f64fa
     name: Disco_01_High
   - guid: 436e2c03440e5f547b66fa14b269b34c
-    name: UowIlpN
+    name: Disco_01_Pitch
+  - guid: bc9dc57df444b42ed8c7021e32ad4a71
+    name: Disco_02_Volume
   - guid: e2753ea333f17483eaaf219569220b6a
     name: Disco_02_Low
   - guid: 0fb6a47dadd0244748518f2a3cfa7247
     name: Disco_02_Mid
   - guid: d08fa72c155ce45efa730189554015fa
     name: Disco_02_High
+  - guid: ee7b96ef957ba43cd86527ab3c549f59
+    name: Disco_02_Pitch
   - guid: d5432f2efb50d754b9487684c91aea7e
     name: hTmRohJ
   m_AudioMixerGroupViews:

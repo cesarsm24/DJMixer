@@ -191,7 +191,7 @@ public class ControlDisco : MonoBehaviour
     /// <param name="sliderValue">Valor entre 0.5 y 2.0 que representa el pitch</param>
     public void SetPitch01(float sliderValue)
     {
-        myAudioMixer.SetFloat("UowIlpN", Mathf.Clamp(sliderValue, 0.5f, 2f));
+        myAudioMixer.SetFloat("Disco_01_Pitch", Mathf.Clamp(sliderValue, 0.5f, 2f));
         if (rotateDisk != null)
         {
             rotateDisk.AdjustSpeedRotation(sliderValue);
@@ -205,6 +205,7 @@ public class ControlDisco : MonoBehaviour
     /// <param name="sliderValue">Valor entre 0.5 y 2.0 que representa el pitch</param>
     public void SetPitch02(float sliderValue)
     {
+		myAudioMixer.SetFloat("Disco_02_Pitch", Mathf.Clamp(sliderValue, 0.5f, 2f));
         if (rotateDisk != null)
         {
             rotateDisk.AdjustSpeedRotation(sliderValue);
@@ -218,7 +219,7 @@ public class ControlDisco : MonoBehaviour
     public void SetVolume01(float sliderValue)
     {
         float dB = (sliderValue > 0) ? Mathf.Log10(sliderValue) * 20f : -80f;
-        myAudioMixer.SetFloat("tssPsQN", dB);
+        myAudioMixer.SetFloat("Disco_01_Volume", dB);
     }
 
     /// <summary>
@@ -228,7 +229,7 @@ public class ControlDisco : MonoBehaviour
     public void SetVolume02(float sliderValue)
     {
         float dB = (sliderValue > 0) ? Mathf.Log10(sliderValue) * 20f : -80f;
-        myAudioMixer.SetFloat("vQTuTmL", dB);
+        myAudioMixer.SetFloat("Disco_02_Volume", dB);
     }
 
     #endregion
