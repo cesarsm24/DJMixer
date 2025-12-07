@@ -11398,8 +11398,8 @@ MonoBehaviour:
   audioMixer: {fileID: 24100000, guid: d9960105650210145b8465774da32563, type: 2}
   crossfadeSlider: {fileID: 1303781496}
   crossfadeMode: 1
-  disco01VolumeParam: tssPsQN
-  disco02VolumeParam: vQTuTmL
+  disco01VolumeParam: Disco_01_Volume
+  disco02VolumeParam: Disco_02_Volume
 --- !u!4 &1144051595
 Transform:
   m_ObjectHideFlags: 0

@@ -27,11 +27,11 @@ public class Crossfader : MonoBehaviour
     [Header("Volume Parameters")]
     [Tooltip("Nombre del parámetro de volumen para Disco_01 en el AudioMixer")]
     [SerializeField]
-    private string disco01VolumeParam = "tssPsQN";
+    private string disco01VolumeParam = "Disco_01_Volume";
 
     [Tooltip("Nombre del parámetro de volumen para Disco_02 en el AudioMixer")]
     [SerializeField]
-    private string disco02VolumeParam = "vQTuTmL";
+    private string disco02VolumeParam = "Disco_02_Volume";
 
     #endregion
 
