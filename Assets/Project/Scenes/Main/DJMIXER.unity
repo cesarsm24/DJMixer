@@ -5337,7 +5337,7 @@ MonoBehaviour:
   sprites:
   - {fileID: 21300000, guid: 52331fefd40ac42a39219fb9f656ba1e, type: 3}
   - {fileID: 21300000, guid: df15c093a738d4c09b87f8b5c3939ee9, type: 3}
-  - {fileID: 21300000, guid: 3a881311c7161a444bcdd5878c81ef88, type: 2}
+  - {fileID: 21300000, guid: 951644300ed9945d581daa4e609c6078, type: 3}
   _slider: {fileID: 527}
   btn_play: {fileID: 54}
   btn_play_mus: {fileID: 122}
